@@ -1,0 +1,213 @@
+<!DOCTYPE html(contenteditable)>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Portfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-battery"></div>
+    </div>
+    <nav class="nav" id="nav">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <div class="nav-logo-text">DF</div>
+            </div>
+            <div class="nav-sm-icon"><span></span><span></span><span></span></div>
+            <div class="nav-ul-wrapper" id="nav-ul-wrapper">
+                <div class="nav-spy"></div>
+                <ul class="nav-ul" id="nav-ul">
+                    <li class="nav-li"><a class="nav-link" href="#header">Home</a></li>
+                    <li class="nav-li"><a class="nav-link" href="#about">O mnie</a></li>
+                    <li class="nav-li"><a class="nav-link" href="#showcase">Projekty</a></li>
+                    <li class="nav-li"><a class="nav-link" href="#stack">Stack</a></li>
+                    <li class="nav-li"><a class="nav-link" href="#footer">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header" id="header">
+        <div class="header-content">
+            <h2 class="header-title">Cześć, mam na imię Damian</h2>
+            <p class="header-desc">Interesuje się programowaniem aplikacji internetowych</p>
+            <div class="header-btn-wrapper"><button class="header-btn header-btn_more">Więcej<span class="fa fa-chevron-circle-right"></span></button><span
+                    class="header-btn-wrapper-divider"></span><button class="header-btn header-btn_work">Portfolio<span
+                        class="fa fa-chevron-circle-right"></span></button></div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <h2 class="section-name about-heading">O mnie<span class="section-name-underline"></span></h2>
+        <p class="about-paragraph">Ukończyłem kierunek technik-informatyk w Centrum Kształcenia Zawodowego i
+            Ustawicznego w Łodzi. Z rzeczy których się tam uczyłem najbardziej zainteresowało mnie programowanie.
+            Zacząłem się w nie zagłębiać pod kątem tworzenia stron internetowych oraz serwerów poprzez realizowanie
+            kursów dostępnych w internecie i czytanie książek, artykułów na ten temat. Odbyłem również
+            czterotygodniowe praktyki jako front-end developer budując interaktywny interfejs użytkownika komunikujący
+            się z częścią serwerową za pomocą technologii AJAX. W trakcie projektu korzystałem z bibliotek React oraz
+            Redux.js.</p>
+    </section>
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <h2 class="section-name">projekty<span class="section-name-underline"></span></h2>
+            <div class="projects-wrapper">
+                <div class="project-tile project-tile_chall">
+                    <div class="project-tile-heading">Webdev Challange #3</div>
+                    <div class="project-tile-links-wrapper"><a href="https://damianfurmanczyk.github.io/webdev-chall-3-built/"
+                            target="_blank">Strona</a><a href="https://github.com/DamianFurmanczyk/webdev-chall-3"
+                            target="_blank">Github</a></div>
+                </div>
+                <div class="project-tile project-tile_portfolio">
+                    <div class="project-tile-heading">Strona portfolio</div>
+                    <div class="project-tile-links-wrapper"><a href="https://damianfurmanczyk.github.io/portfolio/"
+                            target="_blank">Github</a></div>
+                </div>
+                <div class="project-tile project-tile_php-blogspot">
+                    <div class="project-tile-heading">Php blogspot</div>
+                    <div class="project-tile-links-wrapper"><a href="https://bloggens.000webhostapp.com/" target="_blank">Strona</a><a
+                            href="https://github.com/DamianFurmanczyk/Php-BlogSpot" target="_blank">Github</a></div>
+                </div>
+                <div class="project-tile project-tile_calc">
+                    <div class="project-tile-heading">Kalkulator</div>
+                    <div class="project-tile-links-wrapper"><a href="https://damianfurmanczyk.github.io/simple-web-calculator/"
+                            target="_blank">Strona</a><a href="https://github.com/DamianFurmanczyk/simple-web-calculator"
+                            target="_blank">Github</a></div>
+                </div>
+                <div class="project-tile project-tile_react-yt-search">
+                    <div class="project-tile-heading">React+Redux youtube search</div>
+                    <div class="project-tile-links-wrapper"><a href="https://yt-react-search.herokuapp.com/" target="_blank">Strona</a><a
+                            href="#" target="_blank">Github</a></div>
+                </div>
+                <div class="project-tile project-tile_nodejs-blogspot">
+                    <div class="project-tile-heading">Node.js blogspot</div>
+                    <div class="project-tile-links-wrapper"><a href="https://blogspot-node.herokuapp.com/" target="_blank">Strona</a><a
+                            href="https://github.com/DamianFurmanczyk/nodejs-blogspot-final" target="_blank">Github</a></div>
+                </div>
+            </div>
+        </div>
+        <h2 class="more">Więcej moich prac można znaleźć <a href="https://codepen.io/phrapsie/" target="_blank">pod tym
+                linkiem</a>.</h2>
+    </section>
+    <section class="tech-stack" id="stack">
+        <div class="container">
+            <h2 class="section-name tech-stack-heading">Tech-stack<span class="section-name-underline"></span></h2>
+            <div class="tech-stack-row">
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">CSS</h3><span class="tech-stack-item-i-info fa-info-circle fa"></span><span
+                            class="tech-stack-item-i-main devicon-css3-plain colored"></span>
+                        <div class="tech-item-box">
+                            <dl class="tech-item-box-dl"><dt class="tech-item-box-dl-dt"><b>Frameworki</b></dt>
+                                <dd class="tech-item-box-dl-dd">Bootstrap, Materialize, Semantic-UI</dd><dt class="tech-item-box-dl-dt"><b>Preprocessory</b></dt>
+                                <dd class="tech-item-box-dl-dd">Sass, Stylus</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">HTML</h3><span class="tech-stack-item-i-main devicon-html5-plain colored"></span>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Javascript</h3><span class="tech-stack-item-i-main devicon-javascript-plain colored"></span>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Jquery</h3><span class="tech-stack-item-i-main devicon-jquery-plain colored"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack-row">
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">React.js</h3><span class="tech-stack-item-i-info fa-info-circle fa"></span><span
+                            class="tech-stack-item-i-main devicon-react-original colored"></span>
+                        <div class="tech-item-box">
+                            <dl class="tech-item-box-dl"><dt class="tech-item-box-dl-dt"><b>Biblioteki</b></dt>
+                                <dd class="tech-item-box-dl-dd">Redux</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Angular 4</h3><span class="tech-stack-item-i-main devicon-angularjs-plain colored"></span>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Webpack</h3><span class="tech-stack-item-i-main devicon-webpack-plain colored"></span>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Photoshop</h3><span class="tech-stack-item-i-main devicon-photoshop-plain colored"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack-row">
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Node.js</h3><span class="tech-stack-item-i-info fa-info-circle fa"></span><span
+                            class="tech-stack-item-i-main devicon-nodejs-plain colored"></span>
+                        <div class="tech-item-box">
+                            <dl class="tech-item-box-dl"><dt class="tech-item-box-dl-dt"><b>Frameworki</b></dt>
+                                <dd class="tech-item-box-dl-dd">Express.js</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Mongodb</h3><span class="tech-stack-item-i-main devicon-mongodb-plain colored"></span>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">PHP</h3><span class="tech-stack-item-i-main devicon-php-plain colored"></span>
+                    </div>
+                </div>
+                <div class="tech-stack-item hidden">
+                    <div class="tech-stack-item-content">
+                        <h3 class="tech-stack-item-content-heading">Git</h3><span class="tech-stack-item-i-main devicon-git-plain colored"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <form class="footer-contact-form">
+                <h2>Kontakt:</h2>
+                <div class="footer-contact-form-left-side">
+                    <div class="input-box"><input name="name" id="name" type="name" required><label for="name"><span>Imię</span></label></div>
+                    <div class="input-box"><input name="email" id="email" type="email" required><label for="email"><span>Email</span></label></div>
+                    <div class="input-box"><input name="company" id="phone" type="phone" placeholder="(nie wymagane)"><label
+                            for="phone"><span>Nr. tel</span></label></div>
+                </div>
+                <div class="footer-contact-form-right-side">
+                    <div class="input-box"><input type="submit" value="Wyślij"><textarea name="message" id="message"
+                            required></textarea><label for="message"><span>Wiadomość</span></label></div>
+                </div>
+            </form>
+            <div class="contact-details">
+                <p><span class="fa fa-phone"></span>518 293 286<br><span class="fa fa-envelope-open"></span>DamianFurmanczykgm@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.noZensmooth = true
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zenscroll/4.0.2/zenscroll-min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="main-bundle.js"></script>
+</body>
+
+</html>
